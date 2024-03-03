@@ -57,7 +57,7 @@ import sys
 # print(b)
 # print(type(b))
 
-# lista = [5, 6.6, 34, 'a', 'b', [2, 3, 4], 'ab']
+lista = [5, 6.6, 34, 'a', 'b', [2, 3, 4], 'ab']
 # print(lista)
 # lista.append(67)
 # print(lista)
@@ -111,7 +111,49 @@ import sys
 # else:
 #       print(b, d)
 
-for i in range(8):
-      print(i)
+# for i in range(1, 8, 2):
+#       print(i)
+# else:
+#       print('koniec petli')
+
+# for i in lista:
+#       print(i)
+
+# for i in range(0, 5):
+#       for j in range(0, 5):
+#             result = i+j
+#             print(result)
+#       print('')
+
+ # licznik = 0
+# while licznik < len(lista):
+#       print(lista[licznik])
+#       licznik += 1
+# else:
+#       print('koniec petli')
+
+# while licznik != 10:
+#  if licznik == 7:
+#   print(licznik)
+#   break
+#  else:
+#   licznik += 1
+# else:
+#  print('licznik')
+#
+licznik = 0
+lista = [2, 3, 6, 10, 15, 23]
+sys.stdout.write('Podaj liczbe')
+a = sys.stdin.readline()
+lista.append(a)
+
+while licznik < len(lista):
+ licznik += 1
+ if a-lista[licznik] == 0:
+  print(licznik, lista[licznik])
+  break
 else:
-      print('koniec petli')
+ print('Niema')
+
+
+
