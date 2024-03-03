@@ -1,3 +1,4 @@
+#Typy danych
 a = 56
 print(a)
 print(type(a))
@@ -24,3 +25,12 @@ print(Wynik3)
 
 Wynik4=Liczba1//Liczba2
 print(Wynik4)
+
+Wynik5=Liczba1**2
+print(Wynik5)
+
+Wynik6=pow(6,1/2)
+print(Wynik6)
+
+Wynik7=6**(1/2)
+print(Wynik7)
