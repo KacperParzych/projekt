@@ -73,4 +73,9 @@ lista.remove([2, 3, 4])
 print(lista)
 del lista[1]
 print(lista)
-del lista
+# del lista
+lista.reverse()
+print(lista)
+lista.sort() # Nie moze porownywac inta z stringiem
+print(lista)
+
