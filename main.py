@@ -101,12 +101,17 @@ import sys
 # else:
 #       print("a is equal to b")
 
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+#
+# if (a > b) | (c > d):
+#       print(a, c)
+# else:
+#       print(b, d)
 
-if (a > b) | (c > d):
-      print(a, c)
+for i in range(8):
+      print(i)
 else:
-      print(b, d)
+      print('koniec petli')
